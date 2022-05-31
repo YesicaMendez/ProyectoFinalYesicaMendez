@@ -1,0 +1,10 @@
+[
+    { "id": 1, "razonSocial": "Plomero", "cuit": "111111111", "domicilio": "aaaaaaaa" },
+    { "id": 2, "razonSocial": "Herramientas", "cuit": "22222222222", "domicilio": "bbbbbbbbb" },
+    { "id": 3, "razonSocial": "Ceramicos", "cuit": "33333333333", "domicilio": "cccccccccccc" },
+    { "id": 4, "razonSocial": "Materiales", "cuit": "44444444444", "domicilio": "eeeeeeeeee" },
+    { "id": 5, "razonSocial": "Años Luz", "cuit": "55555555555", "domicilio": "dddddddddd" },
+    { "id": 6, "razonSocial": "Repuestos", "cuit": "66666666666", "domicilio": "fffffffffff" },
+    { "id": 7, "razonSocial": "Hiperplaca", "cuit": "77777777777", "domicilio": "ggggggggggg" },
+    { "id": 8, "razonSocial": "Neumaticos", "cuit": "88888888888", "domicilio": "hhhhhhhhhhh" }
+]

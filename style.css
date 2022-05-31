@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    /* background-color: rgb(244, 169, 72); */
+    height: 80vh;
+}
+
+.itemMenu {
+    color: black;
+    font-weight: bold;
+}
+
+.subMenu {
+    background-color: rgba(39, 165, 244, 0.271);
+}
+
+
+.invalid {
+    border: solid 2px red;
+}
+
+.invalid-text {
+    color: red;
+    font-size: 0.8rem;
+    margin: 1px 0 1px 0;
+}

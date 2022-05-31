@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden Compra</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/f8b3426ac1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="bg-primary bg-gradient bg-opacity-75 head">
+            <h1 class="text-white fw-bolder fw-">Gestor de Orden de Compra</h1>
+        </header>
+        <div class="row content">
+            <nav class="col-3 bg-opacity-25 bg-primary pt-4 ps-3 menu">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link itemMenu" data-bs-toggle="collapse" href="#collapseProveedor" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-user-group"></i> Proveedores
+                        </a>
+                        <div class="collapse ps-4 subMenu" id="collapseProveedor">
+                            <a class="nav-link itemMenu" href="./formProveedores.html"><i class="fa-solid fa-plus"></i> Nuevo
+                                Proveedores</a>
+                            <a class="nav-link itemMenu" href="./proveedores.html"><i class="fa-solid fa-list"></i>
+                                Lista de Proveedores</a>
+                        </div>
+                    </li>
+                    <li class="nav-item pt-3">
+                        <a class="nav-link itemMenu" data-bs-toggle="collapse" href="#collapseOC" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-cart-shopping"></i> Orden de Compra
+                        </a>
+                        <div class="collapse ps-4 subMenu" id="collapseOC">
+                            <a class="nav-link itemMenu" href="./index.html"><i class="fa-solid fa-plus"></i> Nueva
+                                Orden de Compra</a>
+                            <a class="nav-link itemMenu" href="./ordenCompras.html"><i class="fa-solid fa-list"></i>
+                                Lista de O.Compras</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <main class="col-9">
+                <div class="row">
+                    <h2 class="text-center my-4">Lista de Ordenes de Compra</h2>
+                    <div class="row offset-lg-1 col-lg-10 card p-3">
+                        <div class="row d-flex justify-content-end">
+                            <button class="col-auto btn btn-success" id="btnNuevaOC"><i class="fa-solid fa-plus"></i>
+                                Orden de Compra</button>
+                        </div>
+                        <div class="table-responsive pt-3">
+                            <table class="table table-bordered align-middle">
+                                <thead class="text-center">
+                                    <tr class="table-info">
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Proveedor</th>
+                                        <th scope="col">Productos</th>
+                                        <th scope="col">Estado</th>
+                                        <th scope="col">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableOrdenCompra" class="table-group-divider">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./scripts/ordenCompras.js"></script>
+</body>
+
+</html>
